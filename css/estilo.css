@@ -1,0 +1,72 @@
+footer {
+  background-color: pink; }
+
+.footer_logo {
+  width: 70px;
+  height: auto; }
+
+footer img {
+  width: 30px;
+  height: auto; }
+
+footer {
+  color: Black;
+  font-size: 20px; }
+
+.text-center {
+  color: Black; }
+
+nav {
+  background-color: pink; }
+
+.navbar-collapse {
+  justify-content: flex-end; }
+
+.navbar img {
+  width: 70px;
+  height: auto; }
+
+.nav-link {
+  color: Black; }
+
+* {
+  font-family: 'Bebas Neue', cursive; }
+
+h1 {
+  color: hotpink;
+  font-size: 40px; }
+
+p {
+  color: Black;
+  font-size: 20px; }
+
+iframe {
+  height: 200px;
+  width: auto;
+  justify-content: center; }
+
+#galeria img {
+  width: 350px;
+  height: auto; }
+
+#galeria .col-lg-4 {
+  padding: 25px;
+  margin: 0px; }
+
+#imgMk1 img:hover {
+  transform: scale(1.15); }
+
+#imgMk2 img:hover {
+  transform: scale(1.15); }
+
+#imgMk3 img:hover {
+  transform: scale(1.15); }
+
+#imgMk4 img:hover {
+  transform: scale(1.15); }
+
+#imgMk5 img:hover {
+  transform: scale(1.15); }
+
+#imgMk6 img:hover {
+  transform: scale(1.15); }
