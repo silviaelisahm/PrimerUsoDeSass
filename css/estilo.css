@@ -15,38 +15,38 @@ nav {
   background-color: pink; }
   nav .navbar-collapse {
     justify-content: flex-end; }
-  nav .navbar img {
-    width: 70px;
-    height: auto; }
-  nav .nav-link {
-    color: Black; }
+    nav .navbar-collapse .navbar img {
+      width: 70px;
+      height: auto; }
+    nav .navbar-collapse .nav-link {
+      color: Black; }
 
 * {
   font-family: 'Bebas Neue', cursive; }
 
-body h1 {
+h1 {
   color: hotpink;
   font-size: 40px;
   text-align: center; }
 
-body p {
+p {
   color: Black;
   font-size: 20px; }
 
-body iframe {
+iframe {
   height: 200px;
   width: auto;
   justify-content: center; }
 
-body #galeria img {
+#galeria img {
   width: 350px;
   height: auto; }
 
-body #galeria .col-lg-4 {
+#galeria .col-lg-4 {
   padding: 25px;
   margin: 0px; }
 
-body #imgMk img:hover {
+#imgMk img:hover {
   transform: scale(1.15); }
 
 header {

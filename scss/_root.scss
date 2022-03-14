@@ -2,21 +2,18 @@
 	font-family: 'Bebas Neue', cursive;
 }
 
-body{
 	h1{
 	color: $colorSecundario;
 	font-size: 40px;
-	text-align: center;
-}
-p{
+	text-align: center;}
+	p{
 	color: $colorTerceario;
-	font-size: 20px;
-}
-iframe {
+	font-size: 20px;}
+	iframe {
 	height: 200px;
 	width: auto;
-	justify-content: center;
-}
+	justify-content: center;}
+
 #galeria img{
 	width:350px;
 	height:auto;
@@ -28,5 +25,5 @@ iframe {
 #imgMk img:hover{
 	transform: scale(1.15);
 }
-}
+
 

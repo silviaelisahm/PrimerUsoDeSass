@@ -2,13 +2,13 @@ nav{
 	background-color: $colorPrimario;
 	.navbar-collapse{
 	justify-content: flex-end;
-    }
-    .navbar img{
+	    .navbar img{
     width: 70px;
     height: auto;
     }
 
     .nav-link{
 	color: $colorTerceario;
-}
+  }
+ }
 }
