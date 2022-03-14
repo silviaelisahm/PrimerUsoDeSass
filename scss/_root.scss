@@ -2,9 +2,11 @@
 	font-family: 'Bebas Neue', cursive;
 }
 
-h1{
+body{
+	h1{
 	color: $colorSecundario;
 	font-size: 40px;
+	text-align: center;
 }
 p{
 	color: $colorTerceario;
@@ -25,5 +27,6 @@ iframe {
 }
 #imgMk img:hover{
 	transform: scale(1.15);
+}
 }
 

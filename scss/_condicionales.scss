@@ -1,0 +1,18 @@
+$dispositivo:desktop;
+
+body{
+	@if $dispositivo == mobile {
+        @media only screen and (max-width: 768px){
+        	h1{font-size:20px;}
+        	h3{font-size:10px;}
+        }
+	}@else if $dispositivo == desktop {
+		@media only screen and (min-width: 1023px){
+        	h1{font-size:40px;}
+        	h3{font-size:25px;}
+		}
+	}@else {
+		    h1{font-size:10px;}
+        	h3{font-size:5px;}
+	}
+}
