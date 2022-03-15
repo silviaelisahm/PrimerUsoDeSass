@@ -87,3 +87,15 @@ h1 {
 .font-hotpink {
   color: hotpink;
   background-color: transparent; }
+
+.colorPrimario {
+  color: gray; }
+
+.colorSecundario {
+  color: black; }
+
+.colorWhite {
+  color: white; }
+
+.colorPink {
+  color: pink; }
