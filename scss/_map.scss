@@ -3,10 +3,23 @@ $coloresPrincipales: (
 	colorSecundario:black,
 	colorWhite:white,
 	colorPink:pink
-	);
+);
 
 @each $clave, $valor in $coloresPrincipales {
 	.#{$clave}{
 		color: $valor;
 	}
+}
+
+$estilos:(
+	color:black,
+	centro:center,
+	tFuente:30px,
+	padding:5px
+);
+
+div{
+	color:map-get($estilos,color);
+	text-align:map-get($estilos,centro);
+	font-size:map-get($estilos,tFuente);
 }

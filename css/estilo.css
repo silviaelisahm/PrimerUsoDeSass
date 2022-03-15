@@ -99,3 +99,27 @@ h1 {
 
 .colorPink {
   color: pink; }
+
+div {
+  color: black;
+  text-align: center;
+  font-size: 30px; }
+
+.boton {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px; }
+
+.boton-aceptar {
+  background-color: pink;
+  color: white;
+  border: 1px solid pink; }
+
+.boton-cancelar {
+  background-color: hotpink;
+  color: white;
+  border: 1px solid hotpink; }
