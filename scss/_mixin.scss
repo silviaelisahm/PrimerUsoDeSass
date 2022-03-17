@@ -1,0 +1,13 @@
+@mixin colorYbackground($color,$background,$fSize){
+	color:$color;
+	background-color:$background;
+	font-size:$fSize;
+}
+
+
+
+@mixin flexRowCenter{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
