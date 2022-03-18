@@ -51,9 +51,9 @@ iframe {
 header {
   width: 50%; }
 
-h1 {
-  width: 500px; }
-
+/*h1{
+	width: $quarter-ancho*2;
+}*/
 @media only screen and (min-width: 1023px) {
   body h1 {
     font-size: 40px; }
